@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-travel-page",
+  "version": "1.0.0",
+  "description": "Project made to practice with tailwind",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch",
+    "prod": "npx tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css --minify",
+    "tw:build": "tailwind -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jibarradelgado/tailwind-travel-page.git"
+  },
+  "author": "Jorge Ibarra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jibarradelgado/tailwind-travel-page/issues"
+  },
+  "homepage": "https://github.com/jibarradelgado/tailwind-travel-page#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.8",
+    "tailwindcss": "^3.0.23"
+  }
+}
