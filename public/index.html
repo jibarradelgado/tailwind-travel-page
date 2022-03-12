@@ -11,7 +11,33 @@
   <title>Top of the World Travel</title>
 </head>
 <body>
-  <p>Hello World</p>
-  <div class="w-64 h-64 bg-red-900"></div>
+  <nav></nav>
+  <div id="tab-bar"></div>
+  <section class="w-full h-screen">
+    <div id="home">
+      <div class="w-full h-3/4">
+        <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
+          <input class="outline-none p-3 rounded-full shadow-sm" placeholder="San Francisco" type="search" >
+          <button class="w-36 rounded-full text-xl text-primary shadow-sm font-semibold p-4 bg-white">
+            Explore
+          </button>
+        </div>
+        <div class="w-full h-full">
+          <img src="./img/sanFrancisco.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div id="recommended" class="p-20">
+      <div class="card">
+        <div class="w-full h-3/5 rounded-t-lg bg-cover bg-norway"></div>
+        <div class="w-full h-2/5 rounded-b-lg bg-secondary">
+          <p class="text-white font-bold text-xl px-4 py-2">Norway</p>
+          <p class="text-white text-base px-4">Beautiful landscapes</p>
+        </div>
+      </div>
+    </div>
+    <div id="featured-rents"></div>
+  </section>
+  <footer></footer>
 </body>
 </html>

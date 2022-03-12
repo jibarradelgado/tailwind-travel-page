@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.card {
+  @apply w-48 h-64 shadow-md rounded-lg
+}
