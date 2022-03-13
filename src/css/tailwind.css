@@ -9,7 +9,7 @@
   @apply w-full h-3/5 rounded-t-lg bg-cover;
 }
 .card--info {
-  @apply w-full h-2/5 rounded-b-lg bg-secondary;
+  @apply w-full h-2/5 rounded-b-lg bg-secondary dark:bg-gray-700;
 }
 .card--info__title {
   @apply text-white font-bold text-xl px-4 py-2;
@@ -18,12 +18,12 @@
   @apply text-white text-base px-4;
 }
 .card:nth-child(even) .card--info {
-  @apply bg-white;
+  @apply bg-white dark:bg-gray-800;
 }
 .card:nth-child(even) .card--info__title,
 .card:nth-child(even) .card--info__subtitle {
-  @apply text-terciary;
+  @apply text-terciary dark:text-gray-300;
 }
 .rentalCard__title {
-  @apply text-3xl px-8 pt-8 pb-2 font-semibold text-white;
+  @apply text-3xl px-8 pt-8 pb-2 font-semibold text-white dark:text-gray-300;
 }
